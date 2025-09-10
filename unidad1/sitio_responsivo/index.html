@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="stiles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="barra_navegacion">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">where</a>
+        </nav>
+    </header>
+    <!--section con la imagen y el nombre del cafe-->
+    <section calss="seccion-principal">
+        <!--imagen de fondo y texto principal-->
+        <div class="contenedor-imagen">
+            <!--imagen ejemplo-->
+            <img src="https://imgs.search.brave.com/15PHCkdrsK1n4ovDz4WDdwLZ6YyI0oQ-Qve7n1YOrG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9wYXRh/cy1kZS1sYS1saW1w/aWV6YS1kZWwtZ2F0/by00NzE5MzI3Ni5q/cGc">
+            <div class="texto-superpuesto">
+                <h1>the<br>cafe</h1>
+                <!--direccion visible en la parte inferior derecha-->
+                <p class="direction">15 abril street, 98239823</p>
+                <!--horario parte inferior derechaa-->
+                <span class="horario">open from 6pm to 5pm</span>
+            </div>
+        </div>
+    </section>
+    <!--section acerca del cafe-->
+    <section class="acerda">
+        <button class="boton-negro"> about the coffe</button>
+        <p>
+            el cafe fue fundado por blabla en loremipsum
+        </p>
+    </section>
+    <!--section formulario-->
+    <section class="formulario">
+        <h2>has tu reserva</h2>
+        <form>
+            <!--campo de nombre-->
+            <label for="nomnbre">nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <!--campo de email-->
+            <label for="nomnbre">nombre:</label>
+            <input type="email" id="email" name="email" required>
+            <!--campo de fecha-->
+            <label for="nomnbre">nombre:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <!--campo de numero de personas-->
+            <label for="nomnbre">nombre:</label>
+            <input type="number" id="personas" name="personas" min="1" max="20">
+            <!--boton de envio-->
+            <button type="submit">Reservar</button>
+        </form>-
+    </section>
+</body>
+</html>
